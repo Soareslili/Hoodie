@@ -1,0 +1,22 @@
+
+{
+    "sucess": true,
+    "products": [
+        {
+            "productId": 1,
+            "name": "Hoodie",
+            "price": 49.99,
+            "category": "Clothing",
+            "description": "A comfortable hoodie for everyday wear.",
+            "imageUrl": "/images/hoodie.jpg"
+        },
+        {
+            "productId": 2,
+            "name": "T-Shirt",
+            "price": 19.99,
+            "category": "Clothing",
+            "description": "A stylish t-shirt for casual outings.",
+            "imageUrl": "/images/tshirt.jpg"
+        }
+    ]
+} 
