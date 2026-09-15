@@ -23,7 +23,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
   const displayed = showViewAll ? filtered : filtered.slice(0, 4);
 
   return (
-    <section id="products" className="py-24  bg-[#faf7f2]">
+    <section id="products" className="py-26  bg-[#faf7f2]">
       <div className="container-custom px-8 mx-auto">
        
         <div className="mb-14 flex flex-wrap justify-center gap-8 sm:gap-10">

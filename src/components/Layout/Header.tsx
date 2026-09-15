@@ -5,7 +5,7 @@ import { useCart } from "../Contexts/CartContext";
 
 const leftLinks = [
   { to: "/", label: "Home" },
-  { to: "/collection", label: "Collection" },
+  { to: "/products", label: "Collection" },
 ];
 
 const rightLinks = [
