@@ -9,7 +9,7 @@ interface ProductProps {
   showViewAll?: boolean;
 }
 
-const CATEGORIES = ["Moletom", "Jaqueta", "Camisetas", "Bone"];
+const CATEGORIES = ["Moletom", "Jaqueta", "Camiseta", "Bone"];
 
 export function Products({ products, onProductClick, showViewAll = false }: ProductProps) {
   const { addItem } = useCart();
@@ -20,42 +20,44 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
       ? products
       : products.filter((p) => p.category === activeCategory);
 
-  const displayed = showViewAll ? filtered : filtered.slice(0, 4);
+  const displayed =
+    showViewAll || activeCategory !== undefined
+      ? filtered
+      : filtered.slice(0, 4);
 
   return (
     <section id="products" className="py-26  bg-[#faf7f2]">
       <div className="container-custom px-8 mx-auto">
-       
+
         <div className="mb-14 flex flex-wrap justify-center gap-8 sm:gap-10">
-          
+
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`text-xs font-medium uppercase cursor-pointer tracking-widest px-4 py-2 transition-all ${
-                activeCategory === cat
+              className={`text-xs font-medium uppercase cursor-pointer tracking-widest px-4 py-2 transition-all ${activeCategory === cat
                   ? "border border-neutral-800 text-neutral-900"
                   : "text-neutral-400 hover:text-neutral-700"
-              }`}
+                }`}
             >
               {cat}
             </button>
           ))}
         </div>
 
-     
+
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {displayed.map((product, index) => (
             <div
               key={product.productId}
               className="group flex flex-col "
               onClick={() => onProductClick(product)}
-            data-aos="zoom-in"
-            data-aos-delay={index * 200}
-            data-aos-duration="1000"
+              data-aos="zoom-in"
+              data-aos-delay={index * 80}
+              data-aos-duration="1000"
             >
-     
-           
+
+
               <div className="relative overflow-hidden rounded-lg bg-neutral-100">
                 <img
                   src={product.imageUrl}
@@ -63,7 +65,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
                   className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
 
-              
+
                 <button
                   onClick={(e) => e.stopPropagation()}
                   className="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/90 shadow-sm transition-colors hover:bg-white"
@@ -71,7 +73,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
                   <Heart size={15} className="text-neutral-700" />
                 </button>
 
-            
+
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
@@ -89,7 +91,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
                 </button>
               </div>
 
-           
+
               <div className="mt-4 flex flex-col items-center gap-1.5 text-center">
                 <span className="text-[11px] font-medium uppercase tracking-widest text-neutral-400">
                   {product.category}
@@ -107,7 +109,7 @@ export function Products({ products, onProductClick, showViewAll = false }: Prod
                       className={i < 5 ? "fill-amber-400 text-amber-400" : "text-neutral-300"}
                     />
                   ))}
-                 
+
                 </div>
 
                 <p className="mt-1 text-sm font-medium text-neutral-800">

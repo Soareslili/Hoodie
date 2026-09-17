@@ -1,22 +1,199 @@
-
 {
-    "sucess": true,
+    "success": true,
     "products": [
         {
             "productId": 1,
-            "name": "Hoodie",
-            "price": 49.99,
-            "category": "Clothing",
-            "description": "A comfortable hoodie for everyday wear.",
-            "imageUrl": "/images/hoodie.jpg"
+            "name": "Moletom Urban Black",
+            "price": 189.90,
+            "category": "Moletom",
+            "description": "Moletom preto oversized com capuz e bolso canguru. Visual urbano, moderno e versátil.",
+            "imageUrl": "/img/MoletomBlack.jpg"
         },
         {
             "productId": 2,
-            "name": "T-Shirt",
-            "price": 19.99,
-            "category": "Clothing",
-            "description": "A stylish t-shirt for casual outings.",
-            "imageUrl": "/images/tshirt.jpg"
+            "name": "Moletom Essencial Grey",
+            "price": 169.90,
+            "category": "Moletom",
+            "description": "Moletom cinza mescla com capuz e modelagem regular. Confortável e ideal para composições casuais.",
+            "imageUrl": "/img/MoletomGrey.jpg"
+        },
+        {
+            "productId": 3,
+            "name": "Moletom Sand Oversized",
+            "price": 179.90,
+            "category": "Moletom",
+            "description": "Moletom bege oversized com gola careca e design minimalista. Uma peça moderna para looks neutros.",
+            "imageUrl": "/img/MoletomSand.jpg"
+        },
+        {
+            "productId": 4,
+            "name": "Moletom Olive Street",
+            "price": 189.90,
+            "category": "Moletom",
+            "description": "Moletom verde oliva com capuz e bolso canguru. Estilo urbano com acabamento clean e contemporâneo.",
+            "imageUrl": "/img/MoletomStreet.jpg"
+        },
+        {
+            "productId": 5,
+            "name": "Moletom Off Essential",
+            "price": 159.90,
+            "category": "Moletom",
+            "description": "Moletom off-white com gola careca e modelagem moderna. Visual clean e fácil de combinar.",
+            "imageUrl": "/img/MoletomOff.jpg"
+        },
+        {
+            "productId": 6,
+            "name": "Moletom Coffe Street",
+            "price": 199.90,
+            "category": "Moletom",
+            "description": "Moletom marrom café oversized com capuz e bolso frontal. Uma peça marcante com inspiração streetwear.",
+            "imageUrl": "/img/MoletomCoffee.jpg"
+        },
+        {
+            "productId": 7,
+            "name": "Moletom Navy Zip",
+            "price": 209.90,
+            "category": "Moletom",
+            "description": "Moletom azul-marinho com zíper frontal, capuz e bolsos laterais. Prático e versátil para o dia a dia.",
+            "imageUrl": "/img/MoletomNavy.jpg"
+        },
+        {
+            "productId": 8,
+            "name": "Moletom Graphite Premium",
+            "price": 219.90,
+            "category": "Moletom",
+            "description": "Moletom grafite oversized com capuz estruturado e bolso canguru. Design minimalista com acabamento premium.",
+            "imageUrl": "/img/MoletomGraphite.jpg"
+        },
+        {
+            "productId": 9,
+            "name": "Jaqueta Urban Bomber",
+            "price": 249.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta bomber preta com zíper frontal e bolsos laterais. Design minimalista para um visual urbano e moderno.",
+            "imageUrl": "/img/JaquetaBomber.jpg"
+        },
+        {
+            "productId": 10,
+            "name": "Jaqueta Denim Dark",
+            "price": 229.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta jeans azul escuro com bolsos frontais e acabamento casual. Um clássico versátil para diferentes combinações.",
+            "imageUrl": "/img/JaquetaDenim.jpg"
+        },
+         {
+            "productId": 11,
+            "name": "Jaqueta Military Utility",
+            "price": 259.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta verde militar com bolsos utilitários e acabamento estruturado. Estilo contemporâneo inspirado no visual utility.",
+            "imageUrl": "/img/JaquetaMilitary.jpg"
+        },
+        {
+            "productId": 12,
+            "name": "Jaqueta Brown Leather",
+            "price": 299.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta marrom em couro sintético com zíper frontal e gola clássica. Visual sofisticado com uma pegada urbana.",
+            "imageUrl": "/img/JaquetaBrown.jpg"
+        },
+        {
+            "productId": 13,
+            "name": "Jaqueta Black Puffer",
+            "price": 289.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta puffer preta acolchoada com gola alta e fechamento em zíper. Moderna e ideal para os dias mais frios.",
+            "imageUrl": "/img/JaquetaPuffer.jpg"
+        },
+        {
+            "productId": 14,
+            "name": "Jaqueta Sand Essential",
+            "price": 239.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta bege com modelagem casual, fechamento por botões e acabamento minimalista. Elegante e fácil de combinar.",
+            "imageUrl": "/img/JaquetaSand.jpg"
+        },
+         {
+            "productId": 15,
+            "name": "Jaqueta Graphite Wind",
+            "price": 219.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta corta-vento grafite com capuz e zíper frontal. Leve, moderna e perfeita para um visual esportivo urbano.",
+            "imageUrl": "/img/JaquetaGraphite.jpg"
+        },
+         {
+            "productId": 16,
+            "name": "Jaqueta Navy Varsity",
+            "price": 269.90,
+            "category": "Jaqueta",
+            "description": "Jaqueta varsity azul-marinho com gola canelada e fechamento por botões. Um clássico inspirado no streetwear contemporâneo.",
+            "imageUrl": "/img/JaquetaVarsity.jpg"
+        },
+
+        {
+            "productId": 17,
+            "name": "Camiseta Urban Lines",
+            "price": 119.90,
+            "category": "Camiseta",
+            "description": "Camiseta preta oversized com arte geométrica em tons de grafite. Visual streetwear moderno e marcante.",
+            "imageUrl": "/img/CamisetaLines.jpg"
+        },
+         {
+            "productId": 18,
+            "name": "Camiseta Desert Soul",
+            "price": 129.90,
+            "category": "Camiseta",
+            "description": "Camiseta off-white oversized com estampa artística inspirada em paisagens desérticas e estética vintage.",
+            "imageUrl": "/img/CamisetaDesert.jpg"
+        },
+         {
+            "productId": 19,
+            "name": "Camiseta Serpent Olive",
+            "price": 139.90,
+            "category": "Camiseta",
+            "description": "Camiseta verde musgo oversized com detalhe de serpente bordada e acabamento minimalista premium.",
+            "imageUrl": "/img/CamisetaSerpent.jpg"
+        },
+         {
+            "productId": 20,
+            "name": "Camiseta Vintage Eagle",
+            "price": 135.90,
+            "category": "Camiseta",
+            "description": "Camiseta preta acid wash com ilustração de águia em estilo retrô. Uma peça de personalidade com inspiração streetwear vintage.",
+            "imageUrl": "/img/CamisetaEagle.jpg"
+        },
+         {
+            "productId": 21,
+            "name": "Camiseta Future Metal",
+            "price": 119.90,
+            "category": "Camiseta",
+            "description": "Camiseta grafite washed com arte abstrata de inspiração futurista e acabamento envelhecido.",
+            "imageUrl": "/img/CamisetaMetal.jpg"
+        },
+        {
+            "productId": 22,
+            "name": "Camiseta Tropical Night",
+            "price": 129.90,
+            "category": "Camiseta",
+            "description": "Camiseta azul petróleo oversized com composição botânica estilizada e detalhe discreto na parte frontal.",
+            "imageUrl": "/img/CamisetaTropical.jpg"
+        },
+         {
+            "productId": 23,
+            "name": "Camiseta Coffee Essential",
+            "price": 129.90,
+            "category": "Camiseta",
+            "description": "Camiseta marrom café oversized, gola careca e mangas amplas. Design clean e sofisticado para composições urbanas.",
+            "imageUrl": "/img/CamisetaCoffee.jpg"
+        },
+         {
+            "productId": 24,
+            "name": "Camiseta Lunar Waves",
+            "price": 129.90,
+            "category": "Camiseta",
+            "description": "Camiseta vinho oversized com arte de ondas e lua em uma composição de inspiração oriental contemporânea.",
+            "imageUrl": "/img/CamisetaVinho.jpg"
         }
+        
     ]
-} 
+}
