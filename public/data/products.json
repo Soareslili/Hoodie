@@ -65,6 +65,9 @@
             "description": "Moletom grafite oversized com capuz estruturado e bolso canguru. Design minimalista com acabamento premium.",
             "imageUrl": "/img/MoletomGraphite.jpg"
         },
+
+    
+
         {
             "productId": 9,
             "name": "Jaqueta Urban Bomber",
@@ -130,6 +133,8 @@
             "imageUrl": "/img/JaquetaVarsity.jpg"
         },
 
+     
+
         {
             "productId": 17,
             "name": "Camiseta Urban Lines",
@@ -193,7 +198,138 @@
             "category": "Camiseta",
             "description": "Camiseta vinho oversized com arte de ondas e lua em uma composição de inspiração oriental contemporânea.",
             "imageUrl": "/img/CamisetaVinho.jpg"
-        }
+        },
+
+        {
+            "productId": 25,
+            "name": "Boné Urban Black",
+            "price": 89.90,
+            "category": "Bonés",
+            "description": "Boné preto estilo baseball com aba curva e acabamento estruturado. Visual urbano e minimalista para o dia a dia.",
+            "imageUrl": "/img/BoneBaseball.jpg"
+        },
+         {
+            "productId": 26,
+            "name": "Boné Military Trucker",
+            "price": 99.90,
+            "category": "Bonés",
+            "description": "Boné verde militar estilo trucker, com frente estruturada e tela traseira. Uma combinação moderna de streetwear e estilo utility.",
+            "imageUrl": "/img/BoneTrucker.jpg"
+        },
+
+        {
+            "productId": 27,
+            "name": "Boné Sand Five",
+            "price": 89.90,
+            "category": "Bonés",
+            "description": "Boné bege five-panel com perfil baixo e acabamento minimalista. Leve, moderno e fácil de combinar.",
+            "imageUrl": "/img/BoneFive.jpg"
+        },
+         {
+            "productId": 28,
+            "name": "Boné Heritage Cord",
+            "price": 109.90,
+            "category": "Bonés",
+            "description": "Boné caramelo em veludo cotelê com textura aparente e inspiração vintage. Uma peça diferenciada para composições casuais.",
+            "imageUrl": "/img/BoneCorduroy.jpg"
+        },
+         {
+            "productId": 29,
+            "name": "Boné Ivory Symbol",
+            "price": 109.90,
+            "category": "Bonés",
+            "description": "Boné off-white com aba curva e pequeno bordado geométrico preto. Design clean com contraste elegante e acabamento premium.",
+            "imageUrl": "/img/BoneIvory.jpg"
+        },
+        {
+            "productId": 30,
+            "name": "Boné Denim Washed",
+            "price": 99.90,
+            "category": "Bonés",
+            "description": "Boné masculino azul com acabamento washed e efeito vintage. Possui aba curva, estrutura despojada e detalhes desgastados que trazem personalidade ao visual urbano.",
+            "imageUrl": "/img/BoneWashed.jpg"
+        },
         
+        {
+            "productId": 31,
+            "name": "Boné Crimson Orbit",
+            "price": 119.90,
+            "category": "Bonés",
+            "description": "Boné vinho com aba curva e bordado artístico em tom creme. Design urbano com personalidade e acabamento sofisticado.",
+            "imageUrl": "/img/BoneCrimson.jpg"
+        } ,
+         {
+            "productId": 32,
+            "name": "Boné Suede Brown",
+            "price": 129.90,
+            "category": "Bonés",
+            "description": "Boné masculino marrom com acabamento em camurça sintética, aba curva e detalhe metálico lateral. Design minimalista e sofisticado para composições casuais e urbanas.",
+            "imageUrl": "/img/BoneSuede.jpg"
+        },
+
+         {
+            "productId": 33,
+            "name": "Corrente Silver Link",
+            "price": 89.90,
+            "category": "Acessórios",
+            "description": "Corrente masculina em aço inoxidável prateado com elos médios e acabamento moderno. Um acessório versátil para composições urbanas.",
+            "imageUrl": "/img/CorrenteSilver.jpg"
+        },
+         {
+            "productId": 34,
+            "name": "Pulseira Black Steel",
+            "price": 79.90,
+            "category": "Acessórios",
+            "description": "Pulseira masculina em aço preto fosco com detalhes prateados e fecho moderno. Design minimalista com personalidade.",
+            "imageUrl": "/img/PulseiraBlack.jpg"
+        },
+         {
+            "productId": 35,
+            "name": "Relógio Midnight Steel",
+            "price": 249.90,
+            "category": "Acessórios",
+            "description": "Relógio masculino com mostrador preto, caixa grafite e pulseira metálica escura. Design sofisticado para looks casuais ou elegantes.",
+            "imageUrl": "/img/Relogio.jpg"
+        },
+        {
+            "productId": 36,
+            "name": "Óculos Shadow Black",
+            "price": 129.90,
+            "category": "Acessórios",
+            "description": "Óculos de sol masculino com armação preta e lentes escuras. Design contemporâneo com linhas marcantes e visual sofisticado.",
+            "imageUrl": "/img/OculosBlack.jpg"
+        },
+        {
+            "productId": 37,
+            "name": "Bolsa Urban Cross",
+            "price": 149.90,
+            "category": "Acessórios",
+            "description": "Bolsa transversal masculina preta com estrutura compacta, alça ajustável e compartimentos com zíper. Prática e moderna para o dia a dia.",
+            "imageUrl": "/img/BolsaUrban.jpg"
+        },
+        {
+            "productId": 38,
+            "name": "Carteira Coffee Slim",
+            "price": 89.90,
+            "category": "Acessórios",
+            "description": "Carteira masculina marrom café com acabamento texturizado e formato slim. Design clean para carregar o essencial com praticidade.",
+            "imageUrl": "/img/CarteiraCoffee.jpg"
+        },
+         {
+            "productId": 39,
+            "name": "Anel Silver Edge",
+            "price": 69.90,
+            "category": "Acessórios",
+            "description": "Anel masculino em aço prateado escovado com detalhe geométrico preto. Uma peça moderna e marcante com estética urbana.",
+            "imageUrl": "/img/AnelSilver.jpg"
+        },
+         {
+            "productId": 40,
+            "name": "Mochila Urban Pack",
+            "price": 219.90,
+            "category": "Acessórios",
+            "description": "Mochila masculina preta com estrutura minimalista, compartimentos funcionais e detalhes metálicos grafite. Ideal para uma rotina urbana.",
+            "imageUrl": "/img/MochilaUrban.jpg"
+        }
     ]
 }

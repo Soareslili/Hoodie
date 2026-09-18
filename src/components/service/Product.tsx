@@ -9,7 +9,7 @@ interface ProductProps {
   showViewAll?: boolean;
 }
 
-const CATEGORIES = ["Moletom", "Jaqueta", "Camiseta", "Bone"];
+const CATEGORIES = ["Moletom", "Jaqueta", "Camiseta", "Bonés", "Acessórios"];
 
 export function Products({ products, onProductClick, showViewAll = false }: ProductProps) {
   const { addItem } = useCart();
