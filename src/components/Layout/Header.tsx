@@ -5,12 +5,12 @@ import { useCart } from "../Contexts/CartContext";
 
 const leftLinks = [
   { to: "/", label: "Home" },
-  { to: "/products", label: "Collection" },
+  { to: "/products", label: "Coleção" },
 ];
 
 const rightLinks = [
-  { to: "/new-arrivals", label: "New Arrivals" },
-  { to: "/contact", label: "Contact" },
+  { to: "/new-arrivals", label: "Novidades" },
+  { to: "/contact", label: "Contato" },
 ];
 
 const Header = () => {

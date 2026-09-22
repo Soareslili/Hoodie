@@ -12,7 +12,7 @@ const Hero = () => {
                 {/* Coluna de texto */}
                 <div className="flex flex-col gap-6 px-6 lg:px-0 lg:pr-16">
                     <span className="text-xs font-family font-semibold tracking-[0.3em] uppercase text-primary">
-                        Streetwear Essentials
+                        Essenciais para o homem moderno.
                     </span>
 
                     <h1 className="font-family text-6xl md:text-7xl lg:text-8xl font-black leading-none uppercase text-foreground">
@@ -20,8 +20,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-sm md:text-base text-foreground/70 max-w-sm">
-                        Streetwear Essentials for Modern Style. Premium quality, bold
-                        designs, effortless comfort.
+                        Peças que unem estilo, qualidade e conforto para acompanhar todos os momentos. Do casual ao sofisticado, encontre o que combina com a sua identidade.
                     </p>
 
                     <div className="flex items-center gap-4 mt-2">
@@ -29,13 +28,13 @@ const Hero = () => {
                             to="/products"
                             className="px-8 py-3 bg-foreground text-background text-xs font-semibold uppercase tracking-wide transition-opacity hover:opacity-90"
                         >
-                            Shop Now
+                           Compre agora
                         </Link>
                         <Link
-                            to="/collection"
+                            to="/contact"
                             className="px-8 py-3 border border-foreground text-foreground text-xs font-semibold uppercase tracking-wide transition-colors hover:bg-foreground hover:text-background"
                         >
-                            Explore Collection
+                          Entre em Contato
                         </Link>
                     </div>
                 </div>

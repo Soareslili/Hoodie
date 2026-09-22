@@ -65,9 +65,6 @@
             "description": "Moletom grafite oversized com capuz estruturado e bolso canguru. Design minimalista com acabamento premium.",
             "imageUrl": "/img/MoletomGraphite.jpg"
         },
-
-    
-
         {
             "productId": 9,
             "name": "Jaqueta Urban Bomber",
@@ -84,7 +81,7 @@
             "description": "Jaqueta jeans azul escuro com bolsos frontais e acabamento casual. Um clássico versátil para diferentes combinações.",
             "imageUrl": "/img/JaquetaDenim.jpg"
         },
-         {
+        {
             "productId": 11,
             "name": "Jaqueta Military Utility",
             "price": 259.90,
@@ -116,7 +113,7 @@
             "description": "Jaqueta bege com modelagem casual, fechamento por botões e acabamento minimalista. Elegante e fácil de combinar.",
             "imageUrl": "/img/JaquetaSand.jpg"
         },
-         {
+        {
             "productId": 15,
             "name": "Jaqueta Graphite Wind",
             "price": 219.90,
@@ -124,7 +121,7 @@
             "description": "Jaqueta corta-vento grafite com capuz e zíper frontal. Leve, moderna e perfeita para um visual esportivo urbano.",
             "imageUrl": "/img/JaquetaGraphite.jpg"
         },
-         {
+        {
             "productId": 16,
             "name": "Jaqueta Navy Varsity",
             "price": 269.90,
@@ -132,9 +129,6 @@
             "description": "Jaqueta varsity azul-marinho com gola canelada e fechamento por botões. Um clássico inspirado no streetwear contemporâneo.",
             "imageUrl": "/img/JaquetaVarsity.jpg"
         },
-
-     
-
         {
             "productId": 17,
             "name": "Camiseta Urban Lines",
@@ -143,7 +137,7 @@
             "description": "Camiseta preta oversized com arte geométrica em tons de grafite. Visual streetwear moderno e marcante.",
             "imageUrl": "/img/CamisetaLines.jpg"
         },
-         {
+        {
             "productId": 18,
             "name": "Camiseta Desert Soul",
             "price": 129.90,
@@ -151,7 +145,7 @@
             "description": "Camiseta off-white oversized com estampa artística inspirada em paisagens desérticas e estética vintage.",
             "imageUrl": "/img/CamisetaDesert.jpg"
         },
-         {
+        {
             "productId": 19,
             "name": "Camiseta Serpent Olive",
             "price": 139.90,
@@ -159,7 +153,7 @@
             "description": "Camiseta verde musgo oversized com detalhe de serpente bordada e acabamento minimalista premium.",
             "imageUrl": "/img/CamisetaSerpent.jpg"
         },
-         {
+        {
             "productId": 20,
             "name": "Camiseta Vintage Eagle",
             "price": 135.90,
@@ -167,7 +161,7 @@
             "description": "Camiseta preta acid wash com ilustração de águia em estilo retrô. Uma peça de personalidade com inspiração streetwear vintage.",
             "imageUrl": "/img/CamisetaEagle.jpg"
         },
-         {
+        {
             "productId": 21,
             "name": "Camiseta Future Metal",
             "price": 119.90,
@@ -183,7 +177,7 @@
             "description": "Camiseta azul petróleo oversized com composição botânica estilizada e detalhe discreto na parte frontal.",
             "imageUrl": "/img/CamisetaTropical.jpg"
         },
-         {
+        {
             "productId": 23,
             "name": "Camiseta Coffee Essential",
             "price": 129.90,
@@ -191,7 +185,7 @@
             "description": "Camiseta marrom café oversized, gola careca e mangas amplas. Design clean e sofisticado para composições urbanas.",
             "imageUrl": "/img/CamisetaCoffee.jpg"
         },
-         {
+        {
             "productId": 24,
             "name": "Camiseta Lunar Waves",
             "price": 129.90,
@@ -199,7 +193,6 @@
             "description": "Camiseta vinho oversized com arte de ondas e lua em uma composição de inspiração oriental contemporânea.",
             "imageUrl": "/img/CamisetaVinho.jpg"
         },
-
         {
             "productId": 25,
             "name": "Boné Urban Black",
@@ -208,7 +201,7 @@
             "description": "Boné preto estilo baseball com aba curva e acabamento estruturado. Visual urbano e minimalista para o dia a dia.",
             "imageUrl": "/img/BoneBaseball.jpg"
         },
-         {
+        {
             "productId": 26,
             "name": "Boné Military Trucker",
             "price": 99.90,
@@ -216,7 +209,6 @@
             "description": "Boné verde militar estilo trucker, com frente estruturada e tela traseira. Uma combinação moderna de streetwear e estilo utility.",
             "imageUrl": "/img/BoneTrucker.jpg"
         },
-
         {
             "productId": 27,
             "name": "Boné Sand Five",
@@ -225,7 +217,7 @@
             "description": "Boné bege five-panel com perfil baixo e acabamento minimalista. Leve, moderno e fácil de combinar.",
             "imageUrl": "/img/BoneFive.jpg"
         },
-         {
+        {
             "productId": 28,
             "name": "Boné Heritage Cord",
             "price": 109.90,
@@ -233,7 +225,7 @@
             "description": "Boné caramelo em veludo cotelê com textura aparente e inspiração vintage. Uma peça diferenciada para composições casuais.",
             "imageUrl": "/img/BoneCorduroy.jpg"
         },
-         {
+        {
             "productId": 29,
             "name": "Boné Ivory Symbol",
             "price": 109.90,
@@ -249,7 +241,6 @@
             "description": "Boné masculino azul com acabamento washed e efeito vintage. Possui aba curva, estrutura despojada e detalhes desgastados que trazem personalidade ao visual urbano.",
             "imageUrl": "/img/BoneWashed.jpg"
         },
-        
         {
             "productId": 31,
             "name": "Boné Crimson Orbit",
@@ -257,8 +248,8 @@
             "category": "Bonés",
             "description": "Boné vinho com aba curva e bordado artístico em tom creme. Design urbano com personalidade e acabamento sofisticado.",
             "imageUrl": "/img/BoneCrimson.jpg"
-        } ,
-         {
+        },
+        {
             "productId": 32,
             "name": "Boné Suede Brown",
             "price": 129.90,
@@ -266,8 +257,7 @@
             "description": "Boné masculino marrom com acabamento em camurça sintética, aba curva e detalhe metálico lateral. Design minimalista e sofisticado para composições casuais e urbanas.",
             "imageUrl": "/img/BoneSuede.jpg"
         },
-
-         {
+        {
             "productId": 33,
             "name": "Corrente Silver Link",
             "price": 89.90,
@@ -275,7 +265,7 @@
             "description": "Corrente masculina em aço inoxidável prateado com elos médios e acabamento moderno. Um acessório versátil para composições urbanas.",
             "imageUrl": "/img/CorrenteSilver.jpg"
         },
-         {
+        {
             "productId": 34,
             "name": "Pulseira Black Steel",
             "price": 79.90,
@@ -283,7 +273,7 @@
             "description": "Pulseira masculina em aço preto fosco com detalhes prateados e fecho moderno. Design minimalista com personalidade.",
             "imageUrl": "/img/PulseiraBlack.jpg"
         },
-         {
+        {
             "productId": 35,
             "name": "Relógio Midnight Steel",
             "price": 249.90,
@@ -315,7 +305,7 @@
             "description": "Carteira masculina marrom café com acabamento texturizado e formato slim. Design clean para carregar o essencial com praticidade.",
             "imageUrl": "/img/CarteiraCoffee.jpg"
         },
-         {
+        {
             "productId": 39,
             "name": "Anel Silver Edge",
             "price": 69.90,
@@ -323,13 +313,141 @@
             "description": "Anel masculino em aço prateado escovado com detalhe geométrico preto. Uma peça moderna e marcante com estética urbana.",
             "imageUrl": "/img/AnelSilver.jpg"
         },
-         {
+        {
             "productId": 40,
             "name": "Mochila Urban Pack",
             "price": 219.90,
             "category": "Acessórios",
             "description": "Mochila masculina preta com estrutura minimalista, compartimentos funcionais e detalhes metálicos grafite. Ideal para uma rotina urbana.",
             "imageUrl": "/img/MochilaUrban.jpg"
+        },
+        {
+            "productId": 41,
+            "name": "Calça Chino Caramel",
+            "price": 179.90,
+            "category": "Calças",
+            "description": "Calça chino caramelo com corte slim reto e acabamento clean. Uma peça elegante e versátil para composições casuais ou sofisticadas.",
+            "imageUrl": "/img/CalcaChino.jpg"
+        },
+        {
+            "productId": 42,
+            "name": "Calça Urban Jogger",
+            "price": 169.90,
+            "category": "Calças",
+            "description": "Calça jogger preta com modelagem moderna, cintura ajustável e barra no tornozelo. Conforto com uma estética urbana sofisticada.",
+            "imageUrl": "/img/CalcaJogger.jpg"
+        },
+        {
+            "productId": 43,
+            "name": "Calça Grey Washed",
+            "price": 199.90,
+            "category": "Calças",
+            "description": "Jeans masculino cinza com lavagem washed e modelagem reta relaxed. O acabamento levemente desbotado traz uma estética urbana e contemporânea, perfeita para composições casuais e modernas.",
+            "imageUrl": "/img/CalcaWashed.jpg"
+        },
+        {
+            "productId": 44,
+            "name": "Calça Graphite Tailored",
+            "price": 229.90,
+            "category": "Calças",
+            "description": "Calça masculina de alfaiataria grafite com corte reto, vinco frontal e acabamento refinado. Uma peça elegante e contemporânea, ideal para composições sociais ou para combinar com camiseta e tênis em um visual moderno.",
+            "imageUrl": "/img/CalcaTailored.jpg"
+        },
+        {
+            "productId": 45,
+            "name": "Calça Olive Cargo",
+            "price": 209.90,
+            "category": "Calças",
+            "description": "Calça cargo masculina verde oliva com modelagem reta e bolsos laterais estruturados. Une a estética utility a um acabamento moderno e sofisticado, ideal para composições urbanas.",
+            "imageUrl": "/img/CalcaOlive.jpg"
+        },
+        {
+            "productId": 46,
+            "name": "Calça Jeans Black Washed",
+            "price": 219.90,
+            "category": "Calças",
+            "description": "Jeans masculino preto com lavagem washed, modelagem reta e acabamento levemente desbotado. Uma peça versátil com estética urbana e contemporânea, perfeita para composições casuais e streetwear.",
+            "imageUrl": "/img/CalcaJeansBlack.jpg"
+        },
+        {
+            "productId": 47,
+            "name": "Calça Vintage Blue",
+            "price": 209.90,
+            "category": "Calças",
+            "description": "Jeans masculino azul com lavagem vintage e modelagem reta levemente ampla. O acabamento desbotado proporciona um visual casual e contemporâneo, perfeito para composições urbanas.",
+            "imageUrl": "/img/CalcaBlue.jpg"
+        },
+        {
+            "productId": 48,
+            "name": "Calça Tailored Off-White",
+            "price": 229.90,
+            "category": "Calças",
+            "description": "Calça masculina de alfaiataria off-white com corte reto, pregas frontais discretas e caimento elegante. Uma peça clean e sofisticada para composições modernas, do casual refinado ao social.",
+            "imageUrl": "/img/CalcaOffWhite.jpg"
+        },
+         {
+            "productId": 49,
+            "name": "Short Urban Parachute",
+            "price": 189.90,
+            "category": "Short",
+            "description": "Short preto estilo parachute com modelagem ampla, bolsos utilitários e ajustes discretos. Design streetwear contemporâneo com personalidade.",
+            "imageUrl": "/img/ShortParachute.jpg"
+        },
+         {
+            "productId": 50,
+            "name": "Short Black Tailored",
+            "price": 169.90,
+            "category": "Short",
+            "description": "Short masculino preto de alfaiataria com corte moderno e pregas frontais discretas. Uma peça sofisticada que combina elegância com uma proposta casual contemporânea.",
+            "imageUrl": "/img/ShortTailored.jpg"
+        },
+         {
+            "productId": 51,
+            "name": "Short Black Washed",
+            "price": 169.90,
+            "category": "Short",
+            "description": "Short jeans preto com lavagem washed, corte amplo e acabamento desbotado em grafite. Uma peça marcante para composições urbanas.",
+            "imageUrl": "/img/ShortWashed.jpg"
+        },
+         {
+            "productId": 52,
+            "name": "Short Heritage Cord",
+            "price": 179.90,
+            "category": "Short",
+            "description": "Short masculino marrom em veludo cotelê, com modelagem reta e textura canelada. Une inspiração vintage e acabamento sofisticado para um visual casual com personalidade.",
+            "imageUrl": "/img/ShortCord.jpg"
+        },
+        {
+            "productId": 53,
+            "name": "Short Sand Linen",
+            "price": 169.90,
+            "category": "Short",
+            "description": "Short bege areia de alfaiataria casual com aparência de linho, pregas discretas e caimento leve. Elegante e ideal para produções de verão mais refinadas.",
+            "imageUrl": "/img/ShortSand.jpg"
+        },
+        {
+            "productId": 54,
+            "name": "Short Olive Utility",
+            "price": 159.90,
+            "category": "Short",
+            "description": "Short cargo verde oliva com modelagem estruturada e bolsos utilitários discretos. Visual urbano com acabamento moderno e funcional.",
+            "imageUrl": "/img/ShortUtility.jpg"
+        },
+        {
+            "productId": 55,
+            "name": "Short Vintage Denim",
+            "price": 159.90,
+            "category": "Short",
+            "description": "Short jeans azul com lavagem vintage e modelagem relaxed. O acabamento levemente desbotado traz personalidade para produções casuais e streetwear.",
+            "imageUrl": "/img/ShortVintage.jpg"
+        },
+        {
+            "productId": 56,
+            "name": "Short Graphite Tech",
+            "price": 159.90,
+            "category": "Short",
+            "description": "Short grafite em nylon técnico com cintura ajustável e bolsos discretos com zíper. Design moderno inspirado na estética techwear.",
+            "imageUrl": "/img/ShortTech.jpg"
         }
     ]
 }
