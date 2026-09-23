@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { collections } from "../../lib/products";
 
-import editorialStreet from "../../assets/editorialStreet.png";
-import editorialAthletic from "../../assets/editorialAthletic.png";
+import Moletom from "../../assets/editorialMoletom.jpg";
+import Camiseta from "../../assets/editorialEagle.jpg";
 
 
 
@@ -10,15 +10,15 @@ import editorialAthletic from "../../assets/editorialAthletic.png";
 const blocks = [
   {
     num: "01",
-    title: "Streetwear",
-    desc: "Bold designs rooted in urban culture. Each piece tells a story of the streets.",
-    image: editorialStreet,
+    title: "Moda Urbana",
+    desc: "Peças essenciais com atitude, inspiradas na cultura e no ritmo das ruas.",
+    image: Moletom,
   },
   {
     num: "02",
-    title: "Athletic",
-    desc: "Performance meets style. Premium fabrics engineered for movement and comfort.",
-    image: editorialAthletic,
+    title: "Estampas & Personalidade",
+    desc: "Camisetas marcantes, com estampas que transformam cada peça em expressão de estilo.",
+    image: Camiseta,
   },
 
 ];
@@ -65,7 +65,7 @@ const Feaured = () => {
                 />
               </div>
               <div className="flex flex-col justify-center">
-                <span className="font-display text-6xl md:text-8xl text-muted/60">{block.num}</span>
+                <span className="font-display text-6xl md:text-8xl text-muted/90">{block.num}</span>
                 <h3 className="font-display text-3xl md:text-4xl text-foreground mt-2">{block.title}</h3>
                 <p className="text-sm text-muted-foreground mt-3 font-body leading-relaxed">{block.desc}</p>
               </div>
