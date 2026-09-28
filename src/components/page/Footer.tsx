@@ -16,25 +16,27 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className="mt-4 text-sm text-white/60">
-                        Premium streetwear for the modern generation. Bold. Comfortable. Iconic.
+                        Streetwear premium para a geração moderna. Ousado. Confortável. Icônico.
                     </p>
                 </div>
                 <div>
                     <h4 className=" font-bold uppercase font-family text-primary-foreground">Shop</h4>
                     <ul className="mt-4 space-y-2 text-sm text-white/70"> 
                         <li>Hoodie</li>
-                        <li>Jackets</li>
-                        <li>T-Shirts</li>
-                        <li>Caps</li>
-                        <li>Acessories</li>
+                        <li>Jaqueta</li>
+                        <li>Camiseta</li>
+                        <li>Calças</li>
+                        <li>Short</li>
+                        <li>Bonés</li>
+                        <li>Acessórios</li>
                     </ul>
                 </div>
                 <div>
                     <h4 className=" font-bold uppercase tracking-wider font-family text-primary-foreground">Links Rápidos</h4>
                     <ul className=" flex flex-col mt-4 space-y-2 text-sm text-white/70">
-                        <li><Link to="/about" className="hover:text-primary-foreground transition-smooth">Sobre</Link></li>
-                        <li><Link to="/artists" className="hover:text-primary-foreground transition-smooth">Artistas</Link></li>
-                        <li><Link to="/portfolio" className="hover:text-primary-foreground transition-smooth">Portfólio</Link></li>
+                        <li><Link to="/" className="hover:text-primary-foreground transition-smooth">Home</Link></li>
+                        <li><Link to="/products" className="hover:text-primary-foreground transition-smooth">Colecão</Link></li>
+                        <li><Link to="/new-arrivals" className="hover:text-primary-foreground transition-smooth">Novidades</Link></li>
                         <li><Link to="/contact" className="hover:text-primary-foreground transition-smooth">Contato</Link></li>
 
                     </ul>

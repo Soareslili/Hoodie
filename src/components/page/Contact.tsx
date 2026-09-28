@@ -30,12 +30,12 @@ function ContactPage() {
     <>
       <section className="pt-32 pb-12">
         <div className="container-custom text-center">
-          <p className="text-xs uppercase tracking-[0.5em] text-primary mb-4">Get in Touch</p>
+          <p className="text-xs uppercase tracking-[0.5em] text-primary mb-4">Entre em contato</p>
           <h1 className="font-family text-5xl md:text-7xl font-bold">
-           CONTACT US
+          FALE CONOSCO
           </h1>
           <p className="text-muted-foreground marker::text-primary mt-6 max-w-2xl mx-auto">
-            Have questions about our drops, sizing, or collaborations? Send us a message and our team will respond within 24 hours.
+          Tem dúvidas sobre nossos lançamentos, tamanhos ou colaborações? Envie uma mensagem e nossa equipe responderá em até 24 horas.
           </p>
           <div className="red-divider" />
         </div>
@@ -48,7 +48,7 @@ function ContactPage() {
             {submitted ? (
               <div className="text-center py-16">
                 <h3 className="font-display text-3xl uppercase tracking-wider mb-3">
-                 Solicitar <span className="text-primary">Enviado</span>
+                 Solicitação <span className="text-primary">Enviada</span>
                 </h3>
                 <p className="text-muted-foreground">Entraremos em contato com você em 24 horas.</p>
               </div>
@@ -72,11 +72,11 @@ function ContactPage() {
                 </div>
                 <div>
                   <label className="block text-xs uppercase tracking-widest text-muted-foreground mb-2">
-                   Messagem
+                   Mensagem
                   </label>
                   <textarea
                     rows={5}
-                    placeholder="Tell us how can help..."
+                    placeholder="Diga-nos como podemos ajudar..."
                     className="w-full bg-background border border-border px-4 py-3 text-foreground focus:border-primary outline-none transition-smooth resize-none"
                   />
                 </div>
@@ -108,7 +108,7 @@ function ContactPage() {
             </div>
 
               <div className="mt-12 pt-10 border-t border-border">
-              <p className="text-xs text-editorial text-muted-foreground mb-4">Follow Us</p>
+              <p className="text-xs text-editorial text-muted-foreground mb-4">Siga-nos</p>
               <div className="flex gap-4">
                 <a
                   href="#"
