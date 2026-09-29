@@ -12,16 +12,30 @@ const winterItems = [
 
 export default function FullWinters() {
   return (
-    <section className="py-20 md:py-28 bg-foreground text-primary-foreground">
-      <div className="container ml-10">
-        <div className="text-center mb-12">
-          <p className="text-xs text-editorial text-primary-foreground/60 mb-2">Lançamento da Temporada</p>
-          <h2 className="font-display text-5xl md:text-7xl">
-            Invernos Completos</h2>
+    <section className="py-16 md:py-20 lg:py-28 bg-foreground text-primary-foreground">
+      
+      {/* CONTAINER RESPONSIVO */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+
+        {/* TÍTULO */}
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <p className="text-[10px] sm:text-xs text-editorial text-primary-foreground/60 mb-2">
+            Lançamento da Temporada
+          </p>
+
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
+            Invernos Completos
+          </h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+        {/* PRODUTOS */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-8 sm:gap-4 md:gap-6">
           {winterItems.map((item) => (
-            <div key={item.name} className="group cursor-pointer">
+            <div
+              key={item.name}
+              className="group cursor-pointer"
+            >
+              {/* IMAGEM */}
               <div className="overflow-hidden mb-3">
                 <img
                   src={item.image}
@@ -29,10 +43,21 @@ export default function FullWinters() {
                   loading="lazy"
                   width={800}
                   height={1000}
-                  className="w-full aspect-[3/4] object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="
+                    w-full
+                    aspect-[3/4]
+                    object-cover
+                    transition-transform
+                    duration-500
+                    group-hover:scale-105
+                  "
                 />
               </div>
-              <p className="text-sm text-primary-foreground/80">{item.name}</p>
+
+              {/* NOME */}
+              <p className="text-xs sm:text-sm text-primary-foreground/80 leading-snug">
+                {item.name}
+              </p>
             </div>
           ))}
         </div>

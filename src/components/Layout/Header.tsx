@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-import { Menu, Search, ShoppingBag, User, X } from "lucide-react";
+import {
+  Menu,
+  Search,
+  ShoppingBag,
+  User,
+  X,
+} from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useCart } from "../Contexts/CartContext";
 
@@ -15,16 +21,24 @@ const rightLinks = [
 
 const Header = () => {
   const { totalItems, openCart } = useCart();
+
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+
   const location = useLocation();
 
   const isHome = location.pathname === "/";
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 50);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
 
   return (
@@ -33,9 +47,12 @@ const Header = () => {
         scrolled || !isHome ? "shadow-gold" : ""
       }`}
     >
-      <div className="container mx-auto grid grid-cols-3 items-center px-6 py-4">
-      
-        <nav className="hidden lg:flex items-center gap-6">
+      {/* ================= DESKTOP ================= */}
+
+      <div className="hidden lg:grid container mx-auto grid-cols-3 items-center px-6 py-4">
+        {/* MENU ESQUERDO */}
+
+        <nav className="flex items-center gap-6">
           {leftLinks.map((link) => (
             <Link
               key={link.label}
@@ -47,7 +64,8 @@ const Header = () => {
           ))}
         </nav>
 
-     
+        {/* LOGO */}
+
         <Link
           to="/"
           className="font-family text-foreground text-2xl font-bold text-center justify-self-center"
@@ -55,9 +73,10 @@ const Header = () => {
           HOODIE
         </Link>
 
-     
+        {/* MENU DIREITO */}
+
         <div className="flex items-center justify-end gap-8">
-          <nav className="hidden lg:flex items-center gap-6">
+          <nav className="flex items-center gap-6">
             {rightLinks.map((link) => (
               <Link
                 key={link.label}
@@ -70,6 +89,8 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
+            {/* SEARCH */}
+
             <button
               className="p-2 cursor-pointer text-foreground/80 transition-colors hover:text-primary"
               aria-label="Search"
@@ -77,18 +98,23 @@ const Header = () => {
               <Search size={20} />
             </button>
 
+            {/* CART */}
+
             <button
               onClick={openCart}
               className="relative p-2 cursor-pointer text-foreground/80 transition-colors hover:text-primary"
               aria-label="Open cart"
             >
               <ShoppingBag size={20} />
+
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary text-primary-foreground text-xs rounded-full flex items-center justify-center">
                   {totalItems}
                 </span>
               )}
             </button>
+
+            {/* ACCOUNT */}
 
             <Link
               to="/account"
@@ -97,21 +123,59 @@ const Header = () => {
             >
               <User size={20} />
             </Link>
-
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden text-foreground"
-              aria-label="Toggle menu"
-            >
-              {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
           </div>
         </div>
       </div>
 
+      {/* ================= MOBILE ================= */}
+
+      <div className="lg:hidden flex items-center justify-between px-5 py-4">
+        {/* MENU */}
+
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="p-2 text-foreground cursor-pointer"
+          aria-label="Toggle menu"
+        >
+          {mobileOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
+        </button>
+
+        {/* LOGO */}
+
+        <Link
+          to="/"
+          onClick={() => setMobileOpen(false)}
+          className="font-family text-foreground text-xl font-bold"
+        >
+          HOODIE
+        </Link>
+
+        {/* CARRINHO */}
+
+        <button
+          onClick={openCart}
+          className="relative p-2 cursor-pointer text-foreground/80 transition-colors hover:text-primary"
+          aria-label="Open cart"
+        >
+          <ShoppingBag size={22} />
+
+          {totalItems > 0 && (
+            <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary text-primary-foreground text-xs rounded-full flex items-center justify-center">
+              {totalItems}
+            </span>
+          )}
+        </button>
+      </div>
+
+      {/* ================= MOBILE MENU ================= */}
+
       {mobileOpen && (
-        <div className="lg:hidden bg-background/98 backdrop-blur-md border-t border-border animate-fade-in">
-          <div className="flex flex-col px-6 py-4 gap-4">
+        <div className="lg:hidden bg-background border-t border-border">
+          <nav className="flex flex-col px-6 py-5 gap-5">
             {[...leftLinks, ...rightLinks].map((link) => (
               <Link
                 key={link.label}
@@ -122,7 +186,7 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-          </div>
+          </nav>
         </div>
       )}
     </header>
