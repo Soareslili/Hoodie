@@ -20,7 +20,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div>
-                    <h4 className=" font-bold uppercase font-family text-primary-foreground">Shop</h4>
+                    <h4 className=" font-bold uppercase font-family text-primary-foreground">Categorias</h4>
                     <ul className="mt-4 space-y-2 text-sm text-white/70"> 
                         <li>Hoodie</li>
                         <li>Jaqueta</li>
@@ -45,10 +45,10 @@ const Footer = () => {
                 <div>
                     <h4 className=" font-bold uppercase tracking-wider font-family text-primary-foreground">Legal</h4>
                     <ul className=" flex flex-col mt-4 space-y-2 text-sm text-white/70">
-                        <li><Link to="/about" className="hover:text-primary-foreground transition-smooth">Terms</Link></li>
-                        <li><Link to="/artists" className="hover:text-primary-foreground transition-smooth">Privacy</Link></li>
-                        <li><Link to="/portfolio" className="hover:text-primary-foreground transition-smooth">Shipping</Link></li>
-                        <li><Link to="/contact" className="hover:text-primary-foreground transition-smooth">Returns</Link></li>
+                        <li><Link to="/about" className="hover:text-primary-foreground transition-smooth">Termos</Link></li>
+                        <li><Link to="/artists" className="hover:text-primary-foreground transition-smooth">Privacidade</Link></li>
+                        <li><Link to="/portfolio" className="hover:text-primary-foreground transition-smooth">Entrega</Link></li>
+                        <li><Link to="/contact" className="hover:text-primary-foreground transition-smooth">Devoluções</Link></li>
 
                     </ul>
                 </div>
@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className=" flex justify-between border-t border-white/10">
                 <div className=" max-w-7xl px-4 py-5 text-center text-xs text-white/50 sm:px-6 lg:px-8">
-                    © {new Date().getFullYear()} Lumière Maison. All rights reserved.
+                    © {new Date().getFullYear()} HOODIE. Todos os direitos reservados.
                 </div>
 
                 <div className="grid grid-cols-3 w-[150px] mt-4 gap-4 ">

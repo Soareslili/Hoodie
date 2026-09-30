@@ -15,7 +15,7 @@ export default function NewArrivals() {
                     backgroundPosition: "center"
                 }}
             >
-                {/* gradiente sutil só na base, pra garantir legibilidade do texto sem escurecer o rosto */}
+               
                 <div className="absolute inset-0 bg-gradient-to-t from-white/70 via-transparent to-transparent"></div>
 
                 <div className="relative z-10 max-w-3xl space-y-3">

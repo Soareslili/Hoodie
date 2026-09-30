@@ -43,7 +43,7 @@ function ContactPage() {
 
       <section className="pb-24">
         <div className="container-custom grid lg:grid-cols-5 gap-10">
-          {/* FORM */}
+        
           <div className="lg:col-span-3 p-8 md:p-10 bg-surface-elevated ">
             {submitted ? (
               <div className="text-center py-16">

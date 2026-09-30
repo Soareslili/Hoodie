@@ -14,10 +14,10 @@ export default function FullWinters() {
   return (
     <section className="py-16 md:py-20 lg:py-28 bg-foreground text-primary-foreground">
       
-      {/* CONTAINER RESPONSIVO */}
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
 
-        {/* TÍTULO */}
+      
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
           <p className="text-[10px] sm:text-xs text-editorial text-primary-foreground/60 mb-2">
             Lançamento da Temporada
@@ -28,14 +28,14 @@ export default function FullWinters() {
           </h2>
         </div>
 
-        {/* PRODUTOS */}
+       
         <div className="grid grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-8 sm:gap-4 md:gap-6">
           {winterItems.map((item) => (
             <div
               key={item.name}
               className="group cursor-pointer"
             >
-              {/* IMAGEM */}
+            
               <div className="overflow-hidden mb-3">
                 <img
                   src={item.image}
@@ -54,7 +54,7 @@ export default function FullWinters() {
                 />
               </div>
 
-              {/* NOME */}
+             
               <p className="text-xs sm:text-sm text-primary-foreground/80 leading-snug">
                 {item.name}
               </p>

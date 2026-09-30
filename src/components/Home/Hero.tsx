@@ -9,7 +9,7 @@ const Hero = () => {
         <>
         <section className="pt-24 lg:pt-0">
             <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center min-h-[calc(100vh-88px)]">
-                {/* Coluna de texto */}
+              
                 <div className="flex flex-col gap-6 px-6 lg:px-0 lg:pr-16">
                     <span className="text-xs font-family font-semibold tracking-[0.3em] uppercase text-primary">
                         Essenciais para o homem moderno.
@@ -39,7 +39,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Coluna de imagem */}
+              
                 <div className="w-full h-[400px] lg:h-[calc(100vh-88px)] overflow-hidden">
                     <img
                         src={heroImage}

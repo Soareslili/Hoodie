@@ -47,10 +47,10 @@ const Header = () => {
         scrolled || !isHome ? "shadow-gold" : ""
       }`}
     >
-      {/* ================= DESKTOP ================= */}
+     
 
       <div className="hidden lg:grid container mx-auto grid-cols-3 items-center px-6 py-4">
-        {/* MENU ESQUERDO */}
+     
 
         <nav className="flex items-center gap-6">
           {leftLinks.map((link) => (
@@ -64,7 +64,7 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* LOGO */}
+      
 
         <Link
           to="/"
@@ -73,7 +73,7 @@ const Header = () => {
           HOODIE
         </Link>
 
-        {/* MENU DIREITO */}
+       
 
         <div className="flex items-center justify-end gap-8">
           <nav className="flex items-center gap-6">
@@ -89,7 +89,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            {/* SEARCH */}
+          
 
             <button
               className="p-2 cursor-pointer text-foreground/80 transition-colors hover:text-primary"
@@ -98,7 +98,7 @@ const Header = () => {
               <Search size={20} />
             </button>
 
-            {/* CART */}
+          
 
             <button
               onClick={openCart}
@@ -114,7 +114,7 @@ const Header = () => {
               )}
             </button>
 
-            {/* ACCOUNT */}
+           
 
             <Link
               to="/account"
@@ -127,10 +127,10 @@ const Header = () => {
         </div>
       </div>
 
-      {/* ================= MOBILE ================= */}
+     
 
       <div className="lg:hidden flex items-center justify-between px-5 py-4">
-        {/* MENU */}
+       
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -144,7 +144,7 @@ const Header = () => {
           )}
         </button>
 
-        {/* LOGO */}
+       
 
         <Link
           to="/"
@@ -154,7 +154,7 @@ const Header = () => {
           HOODIE
         </Link>
 
-        {/* CARRINHO */}
+      
 
         <button
           onClick={openCart}
@@ -171,7 +171,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* ================= MOBILE MENU ================= */}
+     
 
       {mobileOpen && (
         <div className="lg:hidden bg-background border-t border-border">

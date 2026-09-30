@@ -1,75 +1,108 @@
-# React + TypeScript + Vite
+# HOODIE — Moda Masculina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HOODIE é um projeto de e-commerce de moda masculina desenvolvido com foco em uma experiência moderna, elegante e intuitiva.
 
-Currently, two official plugins are available:
+A proposta é apresentar peças essenciais para o homem moderno através de uma interface minimalista, valorizando os produtos e facilitando a navegação entre coleções, novidades e categorias.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Preview do projeto](./public/BgHero.png)
 
-## React Compiler
+## Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O HOODIE foi desenvolvido para simular uma loja virtual masculina moderna, reunindo diferentes categorias de produtos em uma experiência visual clean e responsiva.
 
-## Expanding the ESLint configuration
+O projeto busca proporcionar ao cliente uma navegação simples e agradável, permitindo explorar produtos, conhecer novas coleções e encontrar peças para diferentes estilos e ocasiões.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Categorias
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A loja conta com diferentes categorias de produtos, como:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Moletons
+- Jaquetas
+- Camisetas
+- Calças
+- Shorts
+- Bonés
+- Acessórios
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Funcionalidades
 
+- Página inicial moderna e responsiva
+- Navegação entre páginas
+- Seções de coleções e novidades
+- Exibição de produtos por categoria
+- Página de produtos
+- Interface adaptada para dispositivos móveis
+- Menu responsivo
+- Componentes reutilizáveis
+- Layout moderno e minimalista
+- Interações e animações para melhorar a experiência do usuário
+
+## Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide React
+
+## Estrutura do projeto
+
+```text
+src/
+├── assets/
+├── components/
+├── lib/
+├── pages/
+├── routes/
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como executar o projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Clone o repositório:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone URL-DO-SEU-REPOSITORIO
 ```
+
+Entre na pasta:
+
+```bash
+cd hoodie
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+Depois, acesse no navegador o endereço informado pelo Vite.
+
+## Objetivo
+
+Este projeto foi desenvolvido com o objetivo de colocar em prática conceitos de desenvolvimento Front-End, criação de interfaces modernas, componentização, responsividade e experiência do usuário.
+
+Além da parte técnica, o HOODIE foi pensado como uma solução visual que poderia ser utilizada como base para uma loja de moda masculina real.
+
+## Responsividade
+
+A interface foi desenvolvida para proporcionar uma boa experiência em diferentes tamanhos de tela, incluindo desktop, tablet e dispositivos móveis.
+
+## Desenvolvido por
+
+**Lidiane Santos Soares**
+
+Desenvolvedora Front-End
+
+ Se você gostou do projeto, deixe uma estrela no repositório!

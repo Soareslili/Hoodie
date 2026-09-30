@@ -22,7 +22,7 @@ const blocks = [
 const Feaured = () => {
   return (
     <>
-      {/* COLEÇÕES */}
+     
       <section className="py-16 md:py-20 lg:py-28 mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <div className="text-center mb-10 md:mb-16">
           <p className="text-[10px] md:text-[11px] tracking-luxe uppercase text-gray-400">
@@ -36,10 +36,7 @@ const Feaured = () => {
           <div className="text-amber w-24 mx-auto mt-6" />
         </div>
 
-        {/* 
-          Mobile: 2 colunas
-          Desktop: 4 colunas
-        */}
+     
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
           {collections.map((c) => (
             <Link
@@ -70,7 +67,7 @@ const Feaured = () => {
         </div>
       </section>
 
-      {/* EDITORIAL */}
+     
       <section className="py-16 md:py-20 lg:py-28 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 lg:gap-12">
@@ -87,7 +84,7 @@ const Feaured = () => {
                   sm:gap-6
                 "
               >
-                {/* IMAGEM */}
+             
                 <div className="w-full sm:w-1/2 md:w-full lg:w-1/2 flex-shrink-0">
                   <img
                     src={block.image}
@@ -99,7 +96,7 @@ const Feaured = () => {
                   />
                 </div>
 
-                {/* TEXTO */}
+               
                 <div className="flex flex-col justify-center">
                   <span className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-muted/90">
                     {block.num}
