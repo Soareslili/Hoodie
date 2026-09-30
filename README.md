@@ -4,7 +4,7 @@ HOODIE é um projeto de e-commerce de moda masculina desenvolvido com foco em um
 
 A proposta é apresentar peças essenciais para o homem moderno através de uma interface minimalista, valorizando os produtos e facilitando a navegação entre coleções, novidades e categorias.
 
-![Preview do projeto](./public/BgHero.png)
+
 
 ## Sobre o projeto
 
